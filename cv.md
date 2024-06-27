@@ -14,17 +14,19 @@ I like to learn and develop new skills.
 - VSCode, Figma
 - Chrome DevTools
 ### Code example:
+```JavaScript
 function outMax(n) {
   let maxSt = 0;
   let a = Math.abs(n);
   let c;
   while (a > 0) {
     c = a % 10;
-    a = (a-c) / 10;
-    maxSt++
+    a = (a - c) / 10;
+    maxSt += 1;
   }
   return maxSt;
 }
+```
 ### Education:
 - BSUIR, Computer systems and networks
 - RS School Stage 0
