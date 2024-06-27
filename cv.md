@@ -1,18 +1,18 @@
 ## Aleksandr Szestak
 
 ### Contacts:
-__E-mail__: <szestak@hotmail.com>  
-__Discord__: <azoo (@Aleksandr-Szestak)>
+__E-mail__: _<szestak@hotmail.com>_  
+__Discord__: _azoo (@Aleksandr-Szestak)_
 ### About Myself:
-I have always been interested in information technologies.  
-Especially programming. Starting with Assembler, C and ending with web applications. 
-I like to learn and develop new skills.
+_I have always been interested in information technologies.  
+Especially programming. Starting with Assembler, C and ending with web applications.  
+I like to learn and develop new skills._  
 ### Skills:
-- JavaScript basics
-- HTML5, CSS3
-- Git/GitHub
-- VSCode, Figma
-- Chrome DevTools
+- _JavaScript basics_
+- _HTML5, CSS3_
+- _Git/GitHub_
+- _VSCode, Figma_
+- _Chrome DevTools_
 ### Code example:
 ```JavaScript
 function outMax(n) {
@@ -28,7 +28,7 @@ function outMax(n) {
 }
 ```
 ### Education:
-- BSUIR, Computer systems and networks
-- RS School Stage 0
+- _BSUIR, Computer systems and networks_
+- _RS School Stage 0_
 ### English:
-Level A2
+_Level A2_
