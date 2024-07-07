@@ -84,11 +84,6 @@ body {
   margin-left: 10px;
 }
 
-/* img {
-  width: 20%;
-  margin-top: 14px;    
-} */
-
 .section > img {
   width: 20%;
   margin-top: 14px;   
@@ -125,7 +120,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 5px 0;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .footer-link img {
