@@ -13,6 +13,7 @@
 </head>
 
 <body>    
+    
     <header class="header">
         <div class="container">
             <nav class="nav">
@@ -40,8 +41,7 @@
         </div>
     </header>
 
-    <main class="main">
-        
+    <main class="main">        
         <div class="container main-container">
             
             <section class="section" id="profile">
@@ -50,8 +50,7 @@
             </section>
 
             <section class="section" id="avatar">
-                <h2 id="notext">notext</h2>
-                <img class="section-name" src="./assets/image/avatar3.jpg" alt="No avatar" >
+                <img class="section-name" src="./assets/image/avatar3.jpg" alt=":(" >
             </section>
 
             <section class="section" id="contacts">
@@ -77,20 +76,21 @@
                     <li>HTML5, CSS3</li>
                     <li>Git/GitHub</li>
                     <li>VSCode, Figma</li>
+                    <li>Chrome DevTools</li>
                 </ul>
             </section>
 
             <section class="section" id="code">
                 <h2 class="section-title">Code example</h2>
                 <p><code>
-                function outMax(n){<br>
+                function outMax(n) {<br>
                     &nbsp;let maxSt = 0;<br>
                     &nbsp;let a = Math.abs(n);<br>
                     &nbsp;let c;<br>
-                    &nbsp;while (a>0){<br>
+                    &nbsp;while (a > 0) {<br>
                         &nbsp;&nbsp;c = a % 10;<br>
-                        &nbsp;&nbsp;a = (a-c) / 10;<br>
-                        &nbsp;&nbsp;maxSt++;<br>
+                        &nbsp;&nbsp;a = (a - c) / 10;<br>
+                        &nbsp;&nbsp;maxSt += 1;<br>
                         &nbsp;}<br>
                     return maxSt;<br>
                   }<br>

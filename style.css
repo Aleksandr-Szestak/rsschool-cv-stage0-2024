@@ -1,9 +1,16 @@
+/* ------------------------------------- */
+
 html {
     scroll-behavior: smooth;
 }
 
 * {
     box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -17,7 +24,6 @@ body {
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
-    color: #0a0a0a;
 }
 
 .container {
@@ -25,10 +31,10 @@ body {
     margin: 0 auto;
 }
 
+/* ------------------------------------- */
+
 .header {
     background-color: gray;
-    /* padding: 20px 0 20px; */
-    /* color: white; */
 }
 
 .menu {
@@ -36,6 +42,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    padding: 0;
+    margin: 10px 0;
 }
 
 .menu-link {
@@ -46,10 +54,11 @@ body {
     transition: 1s;
 }
 
-.menu-link:hover,
-.footer-link:hover {
+.menu-link:hover {
   color: #f6fa02;
 }
+
+/* ------------------------------------- */
 
 .main-container {
     display: flex;
@@ -66,9 +75,24 @@ body {
   margin-left: 10px;
 }
 
+.section-name {
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 3px;    
+  color: #0011ff;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+/* img {
+  width: 20%;
+  margin-top: 14px;    
+} */
+
 .section > img {
-  font-size: 12px;    
-  color: red;
+  width: 20%;
+  margin-top: 14px;   
+  border-radius: 30%;
 }
 
 .section-title {
@@ -79,27 +103,9 @@ body {
   color: #0011ff;
 }
 
-.section-name {
-  font-size: 35px;
-  font-weight: 400;
-  letter-spacing: 3px;    
-  color: #0011ff;
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-
 .contacts-link,
 #discord {    
   color: #0011ff;
-}
-
-img {
-  width: 20%;
-  margin-top: 14px;    
-}
-
-.section > img {
-  border-radius: 30%;
 }
 
 #prof {
@@ -114,26 +120,25 @@ img {
     margin-top: 15px;
 }
   
-.logo {
-    display: contents;  
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+  margin: 0 10px;
 }
-  
+
+.footer-link img {
+  margin-top: 5px;
+  width: 50%;
+}
+
 .logo > img {
     margin: 0;
     width: 100px;
 }
-  
-.footer-inner {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0 10px;
-}
+
 /* ------------------------------------- */
-#notext {
-    display: none;
-}
 
 @media (max-width: 800px) {
     .section {
